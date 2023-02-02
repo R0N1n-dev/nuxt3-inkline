@@ -20,5 +20,6 @@
 
 @include i-layout-aside() {
   height: var(--height);
+  ----width: var(--width);
 }
 </style>
