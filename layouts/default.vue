@@ -7,10 +7,12 @@
       </i-nav>
     </i-layout-header>
 
-    <i-layout-content>
-      <slot />
-    </i-layout-content>
-
+    <i-layout vertical>
+      <i-layout-aside class="_background:gray-50"> Left Aside </i-layout-aside>
+      <i-layout-content>
+        <slot />
+      </i-layout-content>
+    </i-layout>
     <i-layout-footer class="_position:fixed-bottom _background:primary">
       Footer
     </i-layout-footer>
